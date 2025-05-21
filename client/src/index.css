@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray-bg: #e7e7e3;
+  --color-black-bg: #232321;
+}
+
+@layer components {
+  body {
+    @apply bg-gray-bg;
+
+    user-select: none;
+  }
+
+  .layout {
+    @apply max-w-[1300px] mx-auto;
+  }
+}
